@@ -27,8 +27,7 @@ GET /
 **Example:**
 
 ```sh
-curl -X GET \
-  > https://api-motivaai.wedeploy.io/
+curl -X GET https://api-motivaai.wedeploy.io/
 ```
 
 **Return data with all motivatioal quotes**
@@ -53,8 +52,7 @@ GET /quoteID
 **Example:**
 
 ```sh
-curl -X GET \
-  > https://api-motivaai.wedeploy.io/10
+curl -X GET https://api-motivaai.wedeploy.io/10
 ```
 
 **Return data with single motivatioal quote**
