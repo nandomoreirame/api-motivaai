@@ -10,14 +10,63 @@ demo ~> https://api-motivaai.wedeploy.io/
 2. `cd motivaai-api/ && yarn install`
 3. `yarn dev` or `yarn serve`
 
-## Usage
-
-
 Open http://localhost:3000 for all motivatioal quotes
 
 `or`
 
 http://localhost:3000/1 for single motivational quote
+
+## Usage
+
+### Resources
+
+```
+GET /
+```
+
+**Example:**
+
+```sh
+curl -X GET \
+  > https://api-motivaai.wedeploy.io/
+```
+
+**Return data with all motivatioal quotes**
+
+```json
+{
+  "data": [
+    {
+      "quote": "Sucesso é ir de fracasso em fracasso sem perder o entusiasmo.",
+      "author": "Winston Churchill"
+    },
+    ...
+  ]
+}
+```
+
+
+```
+GET /quoteID
+```
+
+**Example:**
+
+```sh
+curl -X GET \
+  > https://api-motivaai.wedeploy.io/10
+```
+
+**Return data with single motivatioal quote**
+
+```json
+{
+  "data": {
+    "quote": "Há dois tipos de pessoas que dirão que você não pode fazer diferença nesse mundo: aquelas que tem medo de tentar e aquelas que temem que você consiga.",
+    "author": "Ray Goforth"
+  }
+}
+```
 
 ## Support
 
