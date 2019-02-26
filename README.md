@@ -1,8 +1,8 @@
-# MotivaAi API
+# MotivaAi API [![Badge](https://img.shields.io/badge/built%20with-wedeploy-00d46a.svg?style=flat)](http://wedeploy.com)
 
 > MotivaAi API - usando [Zeroserver](https://github.com/remoteinterview/zero) e [Wedeploy](https://wedeploy.com/)
 
-**demo ~> https://api-motivaai.wedeploy.io/**
+**Demostração ~> https://api-motivaai.wedeploy.io/**
 
 ## Instalação
 
