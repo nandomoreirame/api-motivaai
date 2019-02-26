@@ -1,0 +1,12 @@
+{
+  "id": "motivaai-api",
+  "env": {},
+  "healthCheck": {
+    "command": "curl -X GET --silent --fail 'localhost'",
+    "interval": 5,
+    "timeout": 5,
+    "startPeriod": 1,
+    "retries": 10
+  },
+  "zeroDowntime": false
+}

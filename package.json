@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/nandomoreirame/motivaai-api#readme",
   "dependencies": {
-    "moment": "^2.24.0",
+    "react": "^16.8.3",
     "zero": "^1.0.5"
   }
 }
