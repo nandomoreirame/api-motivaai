@@ -20,6 +20,8 @@ http://localhost:3000/1 for single motivational quote
 
 ### Resources
 
+**Request**
+
 ```
 GET /
 ```
@@ -44,6 +46,9 @@ curl -X GET https://api-motivaai.wedeploy.io/
 }
 ```
 
+---
+
+**Request**
 
 ```
 GET /quoteID
