@@ -1,4 +1,4 @@
-# MotivaAi API
+# MotivaAi API [![Netlify Status](https://api.netlify.com/api/v1/badges/07a2492a-3bf0-41ff-9aa8-ff8aa7736ffd/deploy-status)](https://app.netlify.com/sites/api-motivaai/deploys)
 
 **Demostração ~> https://api-motivaai.netlify.com/**
 
