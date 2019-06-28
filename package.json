@@ -1,28 +1,21 @@
 {
-  "name": "motivaai-api",
+  "name": "api-motivaai",
   "version": "0.0.1",
-  "description": "",
+  "homepage": "https://api-motivaai.netlify.com/",
+  "description": "MotivaAi API",
   "main": "index.js",
   "scripts": {
-    "dev": "zero",
-    "build": "zero build",
-    "serve": "npm run dev",
-    "start": "NODE_ENV=production zero",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "echo \"build\"",
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nandomoreirame/motivaai-api.git"
+    "url": "git+https://github.com/nandomoreirame/api-motivaai.git"
   },
   "keywords": [],
   "author": "Fernando Moreira <nandomoreira.me@gmail.com> (https://nandomoreira.me)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nandomoreirame/motivaai-api/issues"
-  },
-  "homepage": "https://github.com/nandomoreirame/motivaai-api#readme",
-  "dependencies": {
-    "react": "^16.8.3",
-    "zero": "^1.0.5"
+    "url": "https://github.com/nandomoreirame/api-motivaai/issues"
   }
 }
