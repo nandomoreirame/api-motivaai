@@ -1,2 +1,5 @@
-/ /v1 301
-/v1 /motivaai.json 200
+http://api-motivaai.netlify.com/*   https://api-motivaai.nandomoreira.dev/:splat   301!
+https://api-motivaai.netlify.com/*  https://api-motivaai.nandomoreira.dev/:splat  301!
+
+/     /v1              301
+/v1   /motivaai.json   200
